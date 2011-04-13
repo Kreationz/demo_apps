@@ -68,6 +68,9 @@ class UsersController < ApplicationController
       end
     end
   end
+  def new
+    @title = "Sign up"
+  end
 
   # DELETE /users/1
   # DELETE /users/1.xml
