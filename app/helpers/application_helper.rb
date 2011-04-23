@@ -9,4 +9,8 @@ module ApplicationHelper
     end
   end
   
+  def logo
+    image("logo.png", alt => "Personal Collection App", :class => "round")
+  end
+  
 end
